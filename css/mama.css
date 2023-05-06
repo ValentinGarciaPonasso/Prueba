@@ -1,6 +1,24 @@
+.text-gradient {
+  background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);  
+  color: transparent;    
+  background-clip: text;    
+  background-size: 500%; 
+  animation: color 3s linear infinite;  
+}
+
+@keyframes color {
+  from {
+      background-position: 0% 50%;
+  }
+
+  to {
+      background-position: 100% 50%;
+  }
+}
+
 .titulo{
   background-color: rgb(47, 47, 153);
-  font-size: 3rem;
+  font-size: 5rem;
   color: black;
   text-shadow: 2px 2px solid black;
 }

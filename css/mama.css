@@ -44,6 +44,24 @@ main{
     border: 1px solid #f1f1f1;
     margin-top: 200px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    animation-name: aparece;
+    animation-duration: 15s;
+    /* animation-fill-mode: forwards; */
+  }
+
+  @keyframes aparece{
+    0%{
+      /* visibility: hidden; */
+      opacity: 0;
+    }
+    50%{
+      /* visibility: hidden; */
+      opacity: 0;
+    }
+    100%{
+      /* visibility: visible; */
+      opacity: 1;
+    }
   }
   
   /* This container is needed to position the front and back side */
